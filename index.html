@@ -1,1 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Malla Curricular Medicina Veterinaria</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Malla Curricular Medicina Veterinaria</h1>
+  <div class="malla">
+    <!-- AÑO 1 -->
+    <div class="anio">
+      <h2>Año 1 - Semestre I</h2>
+      <div class="ramos">
+        <div class="ramo" id="bases-moleculares" data-abre="bases-moleculares-celulares,bases-celulares">Bases Moleculares</div>
+        <div class="ramo" id="metodos-cuantificacion" data-abre="bioestadistica">Métodos de cuantificación</div>
+        <div class="ramo" id="manejo-informacion" data-abre="bioestadistica" data-extra="metodos-cuantificacion">Introducción al manejo de la información</div>
+        <div class="ramo" id="diversidad-animal" data-abre="ecologia">Diversidad animal</div>
+        <div class="ramo">Orientación a la medicina veterinaria</div>
+      </div>
+      <h2>Semestre II</h2>
+      <div class="ramos">
+        <div class="ramo" id="bases-moleculares-celulares" data-abre="fisiologia-1,bases-inmunologicas,agentes-patogenos">Bases Moleculares y celulares</div>
+        <div class="ramo" id="bases-celulares" data-abre="fisiologia-1,agentes-patogenos">Bases celulares</div>
+        <div class="ramo" id="bioestadistica" data-abre="epidemiologia,maig">Bioestadística</div>
+        <div class="ramo" id="ecologia" data-abre="conducta-animal,maep">Ecología</div>
+        <div class="ramo">Desarrollo y estructura microscópica del organismo animal</div>
+        <div class="ramo" id="estructura-macroscopica" data-abre="fisiologia-2,maat">Estructura macroscópica del organismo animal</div>
+        <div class="ramo" id="practica-general-basica" data-abre="practica-clinica-basica,practica-campo-basica">Práctica general básica</div>
+      </div>
+    </div>
 
+    <!-- AÑO 2 al 5 omitido aquí por espacio. Sigue el mismo patrón con IDs y data-abre -->
+
+  </div>
+  <div id="info-box" class="oculto"></div>
+  <script src="script.js"></script>
+</body>
+</html>
